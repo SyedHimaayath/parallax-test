@@ -1,0 +1,147 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#1f1f1f;
+}
+/*#logo{
+	position: relative;
+	top: 0px;
+	left:300px;
+}*/
+.bg{
+	width:100%;
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	overflow: hidden;
+}
+/*.main{
+	width: 600px;
+	height:auto;
+	margin:0px auto;
+}*/
+.div1 #img1{
+	position: relative;
+	top:0px;
+	left: 0px;
+	width:650px;
+}
+.div1 #img2{
+	position: relative;
+	top:0px;
+	left: 600px;
+	width:600px;
+}
+.div1{
+	background:url(w1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.explore{
+	margin: 0px auto;
+	color: white;
+	cursor: pointer;
+	position: relative;
+}
+.w1Detail{
+	border:0.5px solid white;
+	background-color: rgba(0,0,0,0.3);
+	width:800px;
+	color: white;
+	padding:10px;
+	opacity:0;
+	margin: 0px auto;
+	font-size: 22px;
+	position:absolute;
+	left:250px;
+}
+.box-content{
+	margin:0px auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 5px;
+}
+.boxes{
+	width:auto;
+	display: inline-block;
+	border:0.2px solid grey;
+	padding:2px 10px;
+	margin:0px 10px;
+	font-size: 16px;
+}
+.boxes:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+.div2{
+	background:url(w2.jpg);
+	background-position: right;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+.div3{
+	background:url(w3.jpg);
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+.div4{
+	background:url(w4.jpg);
+	background-size: cover;
+	background-position: center;
+	/*background-attachment: fixed;*/
+}
+.div5{
+	background:url(w5.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+.div6{
+	background:url(w6.jpg);
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+.div7{
+	background:url(w7.jpg);
+
+	background-size: cover;
+	background-position: bottom center;
+	/*background-attachment: fixed;*/
+}
+.place{
+	color: white;
+	margin:0px auto;
+	font-size: 50px;
+	font-family: 'Lobster Two', cursive;
+}
+.w1{
+	position: relative;
+	top:0px;
+}
+#main-menu{
+	position: fixed;
+	top:50%;
+	right:10px;
+}
+ul{
+	list-style: none;
+}
+li a{
+	color: white;
+}
+li a{
+	text-decoration: none;
+}
+.scrollList a{
+	color: #1f1f1f;
+}
+.hidden{
+	display: none;
+}
